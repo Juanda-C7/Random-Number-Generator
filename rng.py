@@ -6,7 +6,7 @@ from visualize import visualize_rng
 API_KEY = "AIzaSyC1-iRmWhz8rAwmSGBVUdUFFg-Glhpb-v0"
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
-TARGET_CHARS = 90000 
+TARGET_CHARS = 45000 
 
 
 def search_videos(keyword, max_results=80):
